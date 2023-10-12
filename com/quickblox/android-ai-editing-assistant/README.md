@@ -30,7 +30,7 @@ dependencyResolutionManagement {
         
       	// below we have the a link to QuickBlox AI repository
         maven {
-            url= "https://github.com/QuickBlox/public-ai-releases"
+            url "https://github.com/QuickBlox/android-ai-releases/raw/main/"
         }
     }
 }
