@@ -9,7 +9,7 @@
 # QuickBlox AI libraries
 
 ### QBAIAnswerAssistant
-      The QBAIAnswerAssistant library provides answer assistant functionality that helps users effortlessly send various answers considering chat history. The library is based on OpenAI functional and provides the simplest way to communicate with API.
+   The QBAIAnswerAssistant library provides answer assistant functionality that helps users effortlessly send various answers considering chat history. The library is based on OpenAI functional and provides the simplest way to communicate with API.
 
 Repository Link: 
 <a href="https://github.com/QuickBlox/android-ai-releases/tree/main/com/quickblox/android-ai-answer-assistant">QBAIAnswerAssistant Repository</a>
