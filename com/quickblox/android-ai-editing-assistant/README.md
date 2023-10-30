@@ -46,7 +46,7 @@ dependencies {
     // some other dependencies
     
     // below we have a link to QuickBlox AI Rephrase library
-    implementation "com.quickblox:android-ai-editing-assistant:2.0.0"
+    implementation "com.quickblox:android-ai-editing-assistant:2.1.0"
 }
 ```
 
@@ -71,8 +71,6 @@ import com.quickblox.android_ai_editing_assistant.model.ToneImpl
 import com.quickblox.android_ai_editing_assistant.settings.SettingsImpl
 
 private fun rephraseWithOpenAIToken() {
-    QBAIRephrase.init()
-
     val toneName = "Professional"
     val toneDescription = "Description of tone"
     val tone = ToneImpl(toneName, toneDescription)
@@ -104,15 +102,16 @@ import com.quickblox.android_ai_editing_assistant.model.ToneImpl
 import com.quickblox.android_ai_editing_assistant.settings.SettingsImpl
 
 private fun rephraseWitProxyServer() {
-    QBAIRephrase.init()
     val toneName = "Professional"
     val toneDescription = "Description of tone"
     val tone = ToneImpl(toneName, toneDescription)
+    
     val qbToken = "quickblox_token"
     
     val serverProxyUrl = "https://my.proxy-server.com"
     
     val rephraseSettings = SettingsImpl(qbToken, serverProxyUrl, tone)
+    
     val text = "Hi Bro. Can you help me?"
     QBAIRephrase.rephraseAsync(text, rephraseSettings, object : Callback {
         override fun onComplete(result: String) {
