@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.quickblox",
+    "module": "android-ai-answer-assistant",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-ai-answer-assistant-2.0.0.aar",
+          "url": "android-ai-answer-assistant-2.0.0.aar",
+          "size": 39713,
+          "sha512": "6da1a189c9522ad8e83f646f48e45b0f09382b650f959b26d371ab27de89af8ae1e930695dee07dbfa130c89f23cb260b7957c0cacce1e3c8cd99d0fb4c9bc36",
+          "sha256": "75879119f1888ca0a6a9692ea82aefd070c53b2e68b3732d6bcb62dac6034dcb",
+          "sha1": "add23fbbd632d42141437dabd5735b01a1aadbd9",
+          "md5": "37cb17d2428b67357aadf5e3aa7cd709"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-ai-answer-assistant-2.0.0.aar",
+          "url": "android-ai-answer-assistant-2.0.0.aar",
+          "size": 39713,
+          "sha512": "6da1a189c9522ad8e83f646f48e45b0f09382b650f959b26d371ab27de89af8ae1e930695dee07dbfa130c89f23cb260b7957c0cacce1e3c8cd99d0fb4c9bc36",
+          "sha256": "75879119f1888ca0a6a9692ea82aefd070c53b2e68b3732d6bcb62dac6034dcb",
+          "sha1": "add23fbbd632d42141437dabd5735b01a1aadbd9",
+          "md5": "37cb17d2428b67357aadf5e3aa7cd709"
+        }
+      ]
+    }
+  ]
+}
