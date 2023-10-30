@@ -19,7 +19,7 @@ Repository Link:
    The QBAITranslate library helps users simplify cross-lingual communication by providing instant message translation services. The library is based on OpenAI functional and provides the simplest way to communicate with API.
 
 Repository Link:
-<a href="https://github.com/QuickBlox/android-ai-releases/tree/main/com/quickblox/android-ai-translate">QBAIATranslate Repository</a>
+<a href="https://github.com/QuickBlox/android-ai-releases/tree/main/com/quickblox/android-ai-translate">QBAITranslate Repository</a>
 
 ### QBAIRephrase
    The QBAIRephrase library is that helps users effortlessly modify text with multiple variants. If you want to give your application a unique voice, this library provides the tools to do so.
