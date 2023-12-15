@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.quickblox",
+    "module": "android-ai-editing-assistant",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-ai-editing-assistant-2.0.0.aar",
+          "url": "android-ai-editing-assistant-2.0.0.aar",
+          "size": 43292,
+          "sha512": "7451b7e45e37f0f674a5a6b58e7663332fcdfef9d61fe1ddcc63f7f466b03424dfc2e2d6dff82e4e34e3730ce4dff123e79123fbe6704091cd645115aa8a3eba",
+          "sha256": "0e7e394fb55a8d84a98ea0b32018fc65c3c85e3db0b0e82120f9c99b6a26ac81",
+          "sha1": "20879b606466959a3fedf2985dd443f4b3cc39e4",
+          "md5": "2f0dd6d3ee296144b79cdafe8d828275"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-ai-editing-assistant-2.0.0.aar",
+          "url": "android-ai-editing-assistant-2.0.0.aar",
+          "size": 43292,
+          "sha512": "7451b7e45e37f0f674a5a6b58e7663332fcdfef9d61fe1ddcc63f7f466b03424dfc2e2d6dff82e4e34e3730ce4dff123e79123fbe6704091cd645115aa8a3eba",
+          "sha256": "0e7e394fb55a8d84a98ea0b32018fc65c3c85e3db0b0e82120f9c99b6a26ac81",
+          "sha1": "20879b606466959a3fedf2985dd443f4b3cc39e4",
+          "md5": "2f0dd6d3ee296144b79cdafe8d828275"
+        }
+      ]
+    }
+  ]
+}
